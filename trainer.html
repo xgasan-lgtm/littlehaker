@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Тренажёр печати</title>
+
+  <!-- Основные стили сайта -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Небольшой фолбэк, если CSS не подгрузился -->
+  <style>
+    body { background:#f4f6fb; }
+  </style>
+</head>
+<body>
+
+  <!-- Корневой контейнер тренажёра -->
+  <div id="trainer-root">
+    <!-- Если JS не загрузился, будет видно это -->
+    <div class="wrap">
+      <div class="card">
+        <h2>Загрузка тренажёра…</h2>
+        <p class="note">Если это сообщение не исчезает — проверь, что файл <b>js/trainer.js</b> существует.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Логика тренажёра -->
+  <script src="js/trainer.js"></script>
+
+</body>
+</html>
